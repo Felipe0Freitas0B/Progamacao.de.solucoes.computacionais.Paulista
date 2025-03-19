@@ -4,9 +4,9 @@ public class menu {
     public static void main(String[] args){
         
         System.out.println("<======== Menu de Opções ========>");
-        System.out.println(" 1 - Cadastrar Produtos");
-        System.out.println(" 2 - Lista de Produtos");
-        System.out.println(" 3 - Sair do Sistema");
+        System.out.println("<==== 1 - Cadastrar Produtos ====>");
+        System.out.println("<==== 2 - Lista de Produtos =====>");
+        System.out.println("<===== 3 - Sair do Sistema ======>");
         System.out.println("<====== Escolha uma Opção =======>");
         
         Scanner entrada = new Scanner(System.in);
@@ -35,5 +35,8 @@ public class menu {
             entrada.close();
     }
 }
+ 
+
+
  
 
